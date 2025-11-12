@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+  color: #333;
+}
+
+/* En-tête */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #FF7F50;
+ /* box-shadow: 0 2px 5px rgba(0,0,0,0.1);*/
+}
+
+.logo {
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #EEE8AA
+
+}
+
+.home-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #fff3e0, #ffffff);  
+  padding: 50px 20px;
+}
+
+.home-content {
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: justify;
+  line-height: 1.8;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-content h1 {
+  text-align: center;
+  color: #FF7F50;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-content h2 {
+  color: #FF7F50;
+  font-size: 1.2em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.home-content ul {
+  list-style-type: "👉 ";
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.etape {
+  margin-top: 30px;
+  background-color: #fff3e0;
+  border-left: 4px solid #ff8c42;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.competences {
+  max-width: 800px;
+  margin: 60px auto;
+  
+  
+    font-family: "Poppins", sans-serif;
+  color: #333;
+  line-height: 1.8;
+}
+
+.competences h2 {
+  color: #ff8c42; /* orange doux */
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2em;
+}
+
+.competences ul {
+  list-style-type: "💡 ";
+  padding-left: 20px;
+}
+
+.competences li {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+.synthese {
+  text-align: center;      /* centre le texte et l'image */
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.synthese p {
+  color: #ff8c42;
+  font-size: 2em;
+  margin-bottom: 20px;     /* espace entre la phrase et l'image */
+  font-weight: bold;       /* optionnel : mettre la phrase en gras */
+
+}
+
+.image-synthese img {
+  max-width: 100%;          /* l'image s'adapte à la largeur du conteneur */
+  height: auto;             /* conserve les proportions */
+  border-radius: 10px;      /* coins arrondis si tu veux */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* petite ombre douce */
+}
+
+
+/* Pied de page */
+footer {
+  text-align: center;
+  padding: 60px ;
+  background: #FF7F50;
+  color: white;
+  font-size: 14px;
+}
+footer p:first-child {
+  margin-bottom: 10px;
+}
+footer p:middle-child {
+  margin-bottom: 10px;
+}
